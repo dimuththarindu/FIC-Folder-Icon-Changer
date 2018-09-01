@@ -1,0 +1,16 @@
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\bin\Release\FIC.exe.config
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\bin\Release\FIC.exe.manifest
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\bin\Release\FIC.application
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\bin\Release\FIC.exe
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\bin\Release\FIC.pdb
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.FrmAbout.resources
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.FrmMain.resources
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.FrmTroubleshoot.resources
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.Properties.Resources.resources
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.csproj.GenerateResource.Cache
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.csproj.CoreCompileInputs.cache
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.TrustInfo.xml
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.exe.manifest
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.application
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.exe
+E:\Extra\Developments\FIC-Folder-Icon-Changer\FIC\obj\Release\FIC.pdb
