@@ -38,6 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnAboutOK = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblVer = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.gbAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +56,8 @@
             // 
             // gbAbout
             // 
+            this.gbAbout.Controls.Add(this.label2);
+            this.gbAbout.Controls.Add(this.lblVer);
             this.gbAbout.Controls.Add(this.lblLicense);
             this.gbAbout.Controls.Add(this.lblContactMail);
             this.gbAbout.Controls.Add(this.lblHomeURL);
@@ -71,6 +75,7 @@
             // lblLicense
             // 
             this.lblLicense.AutoSize = true;
+            this.lblLicense.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblLicense.Location = new System.Drawing.Point(23, 247);
             this.lblLicense.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLicense.Name = "lblLicense";
@@ -118,12 +123,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 63);
+            this.label3.Location = new System.Drawing.Point(23, 89);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 85);
+            this.label3.Size = new System.Drawing.Size(118, 17);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Version - FIC v2.0 \r\n\r\nDeveloped by DT\r\n\r\nContact us";
+            this.label3.Text = "Developed by DT";
             // 
             // btnAboutOK
             // 
@@ -148,6 +153,25 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // lblVer
+            // 
+            this.lblVer.AutoSize = true;
+            this.lblVer.Location = new System.Drawing.Point(23, 52);
+            this.lblVer.Name = "lblVer";
+            this.lblVer.Size = new System.Drawing.Size(144, 17);
+            this.lblVer.TabIndex = 10;
+            this.lblVer.Text = "Version - FIC v0.0.0.0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 131);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 17);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Contact us";
+            // 
             // FrmAbout
             // 
             this.AcceptButton = this.btnAboutOK;
@@ -160,6 +184,7 @@
             this.Controls.Add(this.btnAboutOK);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FrmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
@@ -182,5 +207,7 @@
         private System.Windows.Forms.Label lblHomeURL;
         private System.Windows.Forms.Label lblContactMail;
         private System.Windows.Forms.Label lblLicense;
+        private System.Windows.Forms.Label lblVer;
+        private System.Windows.Forms.Label label2;
     }
 }

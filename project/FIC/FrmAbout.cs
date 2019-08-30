@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace FIC
@@ -17,7 +19,9 @@ namespace FIC
 
         private void FrmAbout_Load(object sender, EventArgs e)
         {
+            string version = FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).ProductVersion;
 
+            lblVer.Text = "Version - FIC v" + version;
         }
 
         private void lblHomeURL_Click(object sender, EventArgs e)

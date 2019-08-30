@@ -2,6 +2,7 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace FIC
@@ -32,6 +33,14 @@ namespace FIC
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            // Set the version
+            CurrentVersion();
+        }
+
+        private void CurrentVersion()
+        {
+            string version = FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).ProductVersion;
+            lblVer.Text = "FIC v" + version;
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
@@ -179,6 +188,11 @@ namespace FIC
         {
             btnSubmit.Enabled = false;
             iconCustomizer.ClearDirectories(rtxtbxOutput);
+        }
+
+        private void msDefault_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

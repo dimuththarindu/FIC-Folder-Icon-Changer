@@ -68,6 +68,7 @@
             this.troubleshootToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblVer = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -81,6 +82,7 @@
             // 
             // btnClear
             // 
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClear.Location = new System.Drawing.Point(183, 313);
             this.btnClear.Name = "btnClear";
@@ -92,9 +94,11 @@
             // 
             // panel4
             // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.Controls.Add(this.rtxtbxOutput);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(580, 3);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(949, 617);
@@ -102,6 +106,9 @@
             // 
             // rtxtbxOutput
             // 
+            this.rtxtbxOutput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtxtbxOutput.BackColor = System.Drawing.Color.Gray;
             this.rtxtbxOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtxtbxOutput.Location = new System.Drawing.Point(24, 15);
@@ -114,6 +121,8 @@
             // 
             // cmbIcons
             // 
+            this.cmbIcons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbIcons.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbIcons.FormattingEnabled = true;
             this.cmbIcons.Items.AddRange(new object[] {
@@ -136,6 +145,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.btnClear);
             this.groupBox1.Controls.Add(this.cmbIcons);
@@ -157,6 +169,8 @@
             // 
             // btnSelectFolder
             // 
+            this.btnSelectFolder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSelectFolder.Location = new System.Drawing.Point(211, 204);
             this.btnSelectFolder.Name = "btnSelectFolder";
             this.btnSelectFolder.Size = new System.Drawing.Size(280, 30);
@@ -207,6 +221,8 @@
             // 
             // cmbFolderType
             // 
+            this.cmbFolderType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbFolderType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbFolderType.FormattingEnabled = true;
             this.cmbFolderType.Items.AddRange(new object[] {
@@ -223,6 +239,7 @@
             // 
             // btnSubmit
             // 
+            this.btnSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSubmit.Location = new System.Drawing.Point(340, 313);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(151, 48);
@@ -233,6 +250,8 @@
             // 
             // cmbOption
             // 
+            this.cmbOption.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbOption.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOption.FormattingEnabled = true;
             this.cmbOption.Items.AddRange(new object[] {
@@ -246,6 +265,8 @@
             // 
             // cmbSubfolders
             // 
+            this.cmbSubfolders.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbSubfolders.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSubfolders.FormattingEnabled = true;
             this.cmbSubfolders.Items.AddRange(new object[] {
@@ -260,11 +281,13 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.lblIconLocation);
             this.panel3.Controls.Add(this.picBxIcon);
             this.panel3.Controls.Add(this.groupBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(571, 617);
@@ -272,6 +295,7 @@
             // 
             // lblIconLocation
             // 
+            this.lblIconLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblIconLocation.AutoSize = true;
             this.lblIconLocation.Location = new System.Drawing.Point(212, 456);
             this.lblIconLocation.Name = "lblIconLocation";
@@ -281,6 +305,7 @@
             // 
             // picBxIcon
             // 
+            this.picBxIcon.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.picBxIcon.Image = ((System.Drawing.Image)(resources.GetObject("picBxIcon.Image")));
             this.picBxIcon.Location = new System.Drawing.Point(18, 431);
             this.picBxIcon.Margin = new System.Windows.Forms.Padding(4);
@@ -309,6 +334,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.Color.DarkGray;
@@ -321,6 +347,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.lblVer);
             this.panel2.Controls.Add(this.pbPaypal);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -331,6 +358,7 @@
             // 
             // pbPaypal
             // 
+            this.pbPaypal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pbPaypal.BackColor = System.Drawing.Color.Transparent;
             this.pbPaypal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbPaypal.Image = global::FIC.Properties.Resources.paypal;
@@ -380,6 +408,7 @@
             this.msDefault.Size = new System.Drawing.Size(1532, 28);
             this.msDefault.TabIndex = 37;
             this.msDefault.Text = "menuStrip1";
+            this.msDefault.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.msDefault_ItemClicked);
             // 
             // fileToolStripMenuItem
             // 
@@ -484,6 +513,17 @@
             this.aboutToolStripMenuItem.Text = "About..";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // lblVer
+            // 
+            this.lblVer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblVer.AutoSize = true;
+            this.lblVer.ForeColor = System.Drawing.Color.DarkGray;
+            this.lblVer.Location = new System.Drawing.Point(136, 4);
+            this.lblVer.Name = "lblVer";
+            this.lblVer.Size = new System.Drawing.Size(83, 17);
+            this.lblVer.TabIndex = 43;
+            this.lblVer.Text = "FIC v0.0.0.0";
+            // 
             // FrmMain
             // 
             this.AcceptButton = this.btnSubmit;
@@ -561,6 +601,7 @@
         private System.Windows.Forms.ToolStripMenuItem pNGToICOConversionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem findIconsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.Label lblVer;
     }
 }
 
