@@ -59,7 +59,7 @@
             // 
             // picBxIcon
             // 
-            this.picBxIcon.Image = global::FIC.Properties.Resources.Blank;
+            this.picBxIcon.Image = global::FIC.Properties.Resources.DefaultIcon;
             this.picBxIcon.Location = new System.Drawing.Point(397, 93);
             this.picBxIcon.Name = "picBxIcon";
             this.picBxIcon.Size = new System.Drawing.Size(170, 160);

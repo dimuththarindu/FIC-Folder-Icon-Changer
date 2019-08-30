@@ -181,6 +181,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\LICENSE.txt" />
+    <None Include="Resources\Icon.svg" />
     <None Include="Resources\Background_03.jpg" />
     <None Include="Resources\Background_02.jpg" />
     <None Include="Resources\Background_01.jpg" />

@@ -42,5 +42,16 @@ namespace FIC
             {
             }            
         }
+
+        private void lblLicense_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://www.gnu.org/licenses/lgpl-3.0.txt");
+            }
+            catch (Exception)
+            {
+            }
+        }
     }
 }

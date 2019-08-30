@@ -31,12 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAbout));
             this.label1 = new System.Windows.Forms.Label();
             this.gbAbout = new System.Windows.Forms.GroupBox();
+            this.lblLicense = new System.Windows.Forms.Label();
+            this.lblContactMail = new System.Windows.Forms.Label();
+            this.lblHomeURL = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAboutOK = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblHomeURL = new System.Windows.Forms.Label();
-            this.lblContactMail = new System.Windows.Forms.Label();
             this.gbAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +45,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 32);
+            this.label1.Location = new System.Drawing.Point(23, 32);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 17);
@@ -53,6 +54,7 @@
             // 
             // gbAbout
             // 
+            this.gbAbout.Controls.Add(this.lblLicense);
             this.gbAbout.Controls.Add(this.lblContactMail);
             this.gbAbout.Controls.Add(this.lblHomeURL);
             this.gbAbout.Controls.Add(this.label4);
@@ -62,14 +64,51 @@
             this.gbAbout.Margin = new System.Windows.Forms.Padding(4);
             this.gbAbout.Name = "gbAbout";
             this.gbAbout.Padding = new System.Windows.Forms.Padding(4);
-            this.gbAbout.Size = new System.Drawing.Size(295, 315);
+            this.gbAbout.Size = new System.Drawing.Size(695, 366);
             this.gbAbout.TabIndex = 5;
             this.gbAbout.TabStop = false;
+            // 
+            // lblLicense
+            // 
+            this.lblLicense.AutoSize = true;
+            this.lblLicense.Location = new System.Drawing.Point(23, 247);
+            this.lblLicense.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLicense.Name = "lblLicense";
+            this.lblLicense.Size = new System.Drawing.Size(600, 34);
+            this.lblLicense.TabIndex = 9;
+            this.lblLicense.Text = "This program is a freeware and released under the GNU Lesser General Public Licen" +
+    "se v3.0. \r\nA copy of the license can be obtained at https://www.gnu.org/licenses" +
+    "/lgpl-3.0.txt";
+            this.lblLicense.Click += new System.EventHandler(this.lblLicense_Click);
+            // 
+            // lblContactMail
+            // 
+            this.lblContactMail.AutoSize = true;
+            this.lblContactMail.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblContactMail.Location = new System.Drawing.Point(23, 148);
+            this.lblContactMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblContactMail.Name = "lblContactMail";
+            this.lblContactMail.Size = new System.Drawing.Size(171, 17);
+            this.lblContactMail.TabIndex = 8;
+            this.lblContactMail.Text = "dimuththarindu@mail.com";
+            this.lblContactMail.Click += new System.EventHandler(this.lblContactMail_Click);
+            // 
+            // lblHomeURL
+            // 
+            this.lblHomeURL.AutoSize = true;
+            this.lblHomeURL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblHomeURL.Location = new System.Drawing.Point(23, 203);
+            this.lblHomeURL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHomeURL.Name = "lblHomeURL";
+            this.lblHomeURL.Size = new System.Drawing.Size(366, 17);
+            this.lblHomeURL.TabIndex = 7;
+            this.lblHomeURL.Text = "https://dimuththarindu.github.io/FIC-Folder-Icon-Changer/";
+            this.lblHomeURL.Click += new System.EventHandler(this.lblHomeURL_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 186);
+            this.label4.Location = new System.Drawing.Point(23, 186);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 17);
@@ -79,7 +118,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 63);
+            this.label3.Location = new System.Drawing.Point(23, 63);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 85);
@@ -89,7 +128,7 @@
             // btnAboutOK
             // 
             this.btnAboutOK.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnAboutOK.Location = new System.Drawing.Point(522, 382);
+            this.btnAboutOK.Location = new System.Drawing.Point(919, 433);
             this.btnAboutOK.Margin = new System.Windows.Forms.Padding(4);
             this.btnAboutOK.Name = "btnAboutOK";
             this.btnAboutOK.Size = new System.Drawing.Size(120, 40);
@@ -109,38 +148,13 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // lblHomeURL
-            // 
-            this.lblHomeURL.AutoSize = true;
-            this.lblHomeURL.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblHomeURL.Location = new System.Drawing.Point(8, 203);
-            this.lblHomeURL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblHomeURL.MaximumSize = new System.Drawing.Size(250, 0);
-            this.lblHomeURL.Name = "lblHomeURL";
-            this.lblHomeURL.Size = new System.Drawing.Size(248, 34);
-            this.lblHomeURL.TabIndex = 7;
-            this.lblHomeURL.Text = "https://dimuththarindu.github.io/FIC-Folder-Icon-Changer/\r\n";
-            this.lblHomeURL.Click += new System.EventHandler(this.lblHomeURL_Click);
-            // 
-            // lblContactMail
-            // 
-            this.lblContactMail.AutoSize = true;
-            this.lblContactMail.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblContactMail.Location = new System.Drawing.Point(8, 148);
-            this.lblContactMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblContactMail.Name = "lblContactMail";
-            this.lblContactMail.Size = new System.Drawing.Size(171, 17);
-            this.lblContactMail.TabIndex = 8;
-            this.lblContactMail.Text = "dimuththarindu@mail.com";
-            this.lblContactMail.Click += new System.EventHandler(this.lblContactMail_Click);
-            // 
             // FrmAbout
             // 
             this.AcceptButton = this.btnAboutOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnAboutOK;
-            this.ClientSize = new System.Drawing.Size(682, 453);
+            this.ClientSize = new System.Drawing.Size(1079, 510);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.gbAbout);
             this.Controls.Add(this.btnAboutOK);
@@ -167,5 +181,6 @@
         private System.Windows.Forms.Button btnAboutOK;
         private System.Windows.Forms.Label lblHomeURL;
         private System.Windows.Forms.Label lblContactMail;
+        private System.Windows.Forms.Label lblLicense;
     }
 }
